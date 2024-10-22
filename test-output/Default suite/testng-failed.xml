@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="TestGroup.Tests.PositiveTests">
         <methods>
           <include name="closeBrowser"/>
@@ -10,6 +11,15 @@
           <include name="logOutUser"/>
         </methods>
       </class> <!-- TestGroup.Tests.PositiveTests -->
+=======
+      <class name="TestGroup.Tests.LoginWithIncorrectCreds">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="goToWebsite"/>
+          <include name="loginWithIncorrectUserNameAndPassWord"/>
+        </methods>
+      </class> <!-- TestGroup.Tests.LoginWithIncorrectCreds -->
+>>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

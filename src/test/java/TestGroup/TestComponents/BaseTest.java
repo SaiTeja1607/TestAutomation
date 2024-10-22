@@ -12,7 +12,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+<<<<<<< HEAD
 import TestGroup.Pages.ContactUsPage;
+=======
+>>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
 import TestGroup.Pages.EnterAccountInfoPage;
 import TestGroup.Pages.LoginOrSignUpPage;
 import TestGroup.Pages.PageHeaderOptions;
@@ -20,8 +23,11 @@ import TestGroup.Pages.PageHeaderOptions;
 public class BaseTest {
 
 	public WebDriver driver;
+<<<<<<< HEAD
 	
 	
+=======
+>>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
 
 	public WebDriver initializeDriver(String url) throws IOException {
 		Properties prop = new Properties();
