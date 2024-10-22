@@ -88,6 +88,7 @@ public class RegisterAndDeleteUser extends BaseTest{
 public void print()
 {
 System.out.println("Printed info");
+//new line
 }
 
 
