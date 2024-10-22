@@ -28,15 +28,14 @@ WebElement deleteAccount;
 @FindBy(xpath="//a[@href='/logout']")
 WebElement logOutButton;
 
-<<<<<<< HEAD
+
 @FindBy(css="a[href='/contact_us']")
 WebElement contactUsButton;
 
 @FindBy(linkText="Home")
 WebElement homeButton;
 
-=======
->>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
+
 //Action Methods
 
 
@@ -63,7 +62,7 @@ public void logOutUser()
 	performClick(logOutButton);
 }
 
-<<<<<<< HEAD
+
 public void clickOnContactUsButton()
 {
 	performClick(contactUsButton);
@@ -73,7 +72,6 @@ public void clickOnHomeButton()
 {
 performClick(homeButton);	
 }
-=======
->>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
+
 
 }

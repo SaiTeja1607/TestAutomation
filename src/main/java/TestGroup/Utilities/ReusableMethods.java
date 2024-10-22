@@ -15,11 +15,7 @@ public class ReusableMethods {
 	
 	public ReusableMethods(WebDriver driver) {
 		super();
-<<<<<<< HEAD
 
-=======
-//		this.driver=driver;
->>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
 		this.driver=driver;
 	}
 
@@ -66,13 +62,11 @@ public class ReusableMethods {
 		driver.getTitle();
 	}
 	
-<<<<<<< HEAD
+
 	public void acceptAlert()
 	{
 		driver.switchTo().alert().accept();
 		
 	}
-=======
-	
->>>>>>> 131ac69e992059fb5dc68ca650a5340b5cc15257
+
 }
