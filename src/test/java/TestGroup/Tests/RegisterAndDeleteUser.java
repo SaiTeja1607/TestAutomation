@@ -82,5 +82,11 @@ public class RegisterAndDeleteUser extends BaseTest{
 		System.out.println("User Successfully Deleted!");
 		
 	}
+	
+	@Test
+public void print()
+{
+System.out.println("Printed info");
+}
 
 }
